@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         char[][] gameBoard = {
@@ -8,6 +10,10 @@ public class App {
                 { ' ', '|', ' ', '|', ' ' } };
 
         printGameBoard(gameBoard);
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Ingrese su casilla (1-9): ");
+        int pos = scan.nextInt();
+        System.out.println(pos);
 
     }
 
