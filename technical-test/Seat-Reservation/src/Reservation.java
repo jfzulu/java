@@ -55,6 +55,8 @@ public class Reservation {
             }
         }
 
+        System.out.println("Exit, goodbye!");
+
         seatScanner.close();
     }
 
